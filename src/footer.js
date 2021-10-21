@@ -2,6 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Copyright from './copyright.js';
+import {Link} from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -18,7 +19,7 @@ export default function Footer() {
         >
 
           <a href='' style={{color:"white",marginLeft:'0%'}}>Terms of service</a>
-          <a href='/black_goose_website/privacy-policy' style={{color:"white",marginLeft:'5%'}}>Privacy Policy</a>
+          <Link style={{color:"white",marginLeft:'5%'}} to="/privacy-policy">Privacy Policy</Link>
         </Typography>
         <br/>
         <Copyright/>

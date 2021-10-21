@@ -3,14 +3,14 @@ import './App.css';
 import Home from './Home.js'
 import Privacy from './Privacy.js'
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route
 } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Switch>
           <Route exact path="/">
@@ -19,14 +19,14 @@ function App() {
           <Route exact path="/black_goose_website">
               <Home/>
           </Route>
-          <Route exact path="/black_goose_website/privacy-policy">
+          <Route exact path="/privacy-policy">
             <div>
               <Privacy/>
             </div>
           </Route>
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
