@@ -16,8 +16,9 @@ export default function Footer() {
           color="text.secondary"
           component="p"
         >
+
           <a href='' style={{color:"white",marginLeft:'0%'}}>Terms of service</a>
-          <a href='' style={{color:"white",marginLeft:'5%'}}>Privacy Policy</a>
+          <a href='/privacy-policy' style={{color:"white",marginLeft:'5%'}}>Privacy Policy</a>
         </Typography>
         <br/>
         <Copyright/>
