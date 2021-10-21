@@ -6,7 +6,7 @@ export default function Copyright() {
   return (
     <Typography variant="body2" color="white" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
+      <Link color="inherit" href="">
         Black Goose Games
       </Link>{' '}
       {new Date().getFullYear()}

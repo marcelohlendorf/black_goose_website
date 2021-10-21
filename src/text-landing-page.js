@@ -9,7 +9,7 @@ export default function TextLanding() {
   return (
   <Box
     sx={{bgcolor: 'background.paper', pt: 8, pb: 6}}
-    style={{height: '85vh'}}>
+    style={{height: '90vh'}}>
     <br/>
     <Container maxWidth="sm">
       <Typography
@@ -18,6 +18,7 @@ export default function TextLanding() {
         align="center"
         color="text.primary"
         gutterBottom
+        style={{marginTop: '5%'}}
       >
         Black Goose Games
       </Typography>

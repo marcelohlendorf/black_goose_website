@@ -9,12 +9,8 @@ export default function Home() {
   return (
     <div>
       <Header/>
-
-      <main>
-        <TextLanding/>
-        <GamesLanding/>
-      </main>
-
+      <TextLanding/>
+      <GamesLanding/>
       <Footer/>
     </div>
   );

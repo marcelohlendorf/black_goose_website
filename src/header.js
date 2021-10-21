@@ -7,12 +7,12 @@ import Grid from '@mui/material/Grid';
 
 export default function Header() {
   return (
-    <AppBar style={{height: '10vh', backgroundColor: 'black'}}>
+    <AppBar style={{height: '100px', backgroundColor: 'black'}}>
       <Toolbar>
         <a />
         <Typography variant="h6" >
             <a href="/" >
-              <img id="logo-bgg" src={logo} width="72vh" height="72vh" style={{marginTop:'1vh'}} alt="bgg.com" />
+              <img id="logo-bgg" src={logo} width="80px" height="80px" style={{marginTop:'10px'}} alt="bgg.com" />
             </a>
           </Typography>
         <Typography variant="h6" color="inherit" noWrap style={{marginLeft:'2%'}}>
