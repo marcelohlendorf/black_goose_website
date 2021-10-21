@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/black_goose_website/static/css/main.a617e044.chunk.css",
-    "main.js": "/black_goose_website/static/js/main.e69980d0.chunk.js",
-    "main.js.map": "/black_goose_website/static/js/main.e69980d0.chunk.js.map",
+    "main.js": "/black_goose_website/static/js/main.9995759a.chunk.js",
+    "main.js.map": "/black_goose_website/static/js/main.9995759a.chunk.js.map",
     "runtime-main.js": "/black_goose_website/static/js/runtime-main.7a87bd10.js",
     "runtime-main.js.map": "/black_goose_website/static/js/runtime-main.7a87bd10.js.map",
-    "static/js/2.159db8a4.chunk.js": "/black_goose_website/static/js/2.159db8a4.chunk.js",
-    "static/js/2.159db8a4.chunk.js.map": "/black_goose_website/static/js/2.159db8a4.chunk.js.map",
+    "static/js/2.6e13e948.chunk.js": "/black_goose_website/static/js/2.6e13e948.chunk.js",
+    "static/js/2.6e13e948.chunk.js.map": "/black_goose_website/static/js/2.6e13e948.chunk.js.map",
     "index.html": "/black_goose_website/index.html",
     "static/css/main.a617e044.chunk.css.map": "/black_goose_website/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.159db8a4.chunk.js.LICENSE.txt": "/black_goose_website/static/js/2.159db8a4.chunk.js.LICENSE.txt",
+    "static/js/2.6e13e948.chunk.js.LICENSE.txt": "/black_goose_website/static/js/2.6e13e948.chunk.js.LICENSE.txt",
     "static/media/logo.4be8af2f.png": "/black_goose_website/static/media/logo.4be8af2f.png",
     "static/media/logo.6ce24c58.svg": "/black_goose_website/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7a87bd10.js",
-    "static/js/2.159db8a4.chunk.js",
+    "static/js/2.6e13e948.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.e69980d0.chunk.js"
+    "static/js/main.9995759a.chunk.js"
   ]
 }
