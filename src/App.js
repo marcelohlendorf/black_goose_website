@@ -16,6 +16,9 @@ function App() {
           <Route exact path="/">
               <Home/>
           </Route>
+          <Route exact path="/black_goose_website">
+              <Home/>
+          </Route>
           <Route exact path="/black_goose_website/privacy-policy">
             <div>
               <Privacy/>
