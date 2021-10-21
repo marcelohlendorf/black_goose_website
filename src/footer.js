@@ -18,7 +18,7 @@ export default function Footer() {
         >
 
           <a href='' style={{color:"white",marginLeft:'0%'}}>Terms of service</a>
-          <a href='/privacy-policy' style={{color:"white",marginLeft:'5%'}}>Privacy Policy</a>
+          <a href='/black_goose_website/privacy-policy' style={{color:"white",marginLeft:'5%'}}>Privacy Policy</a>
         </Typography>
         <br/>
         <Copyright/>

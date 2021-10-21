@@ -3,17 +3,17 @@ import './App.css';
 import Home from './Home.js'
 import Privacy from './Privacy.js'
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route
 } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
               <Home/>
           </Route>
           <Route exact path="/privacy-policy">
@@ -23,7 +23,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
