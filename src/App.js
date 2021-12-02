@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 
 function App() {
+  // style={{backgroundColor: '#000424'}}
   return (
     <HashRouter>
       <div className="App">

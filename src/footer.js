@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div style={{backgroundColor:'black'}}>
+    <div style={{backgroundColor: '#000424',border: "none",boxShadow: "none",marginTop:'-3px'}}>
       <Box sx={{ p: 6 }} component="footer">
         <Typography variant="h6" align="center" gutterBottom style={{color:"white"}}>
           Follow us on: Social Mocial Media
@@ -18,8 +18,7 @@ export default function Footer() {
           component="p"
         >
 
-          <a href='' style={{color:"white",marginLeft:'0%'}}>Terms of service</a>
-          <Link style={{color:"white",marginLeft:'5%'}} to="/privacy-policy">Privacy Policy</Link>
+          <Link style={{color:"white"}} to="/privacy-policy">Imprint & Privacy Policy</Link>
         </Typography>
         <br/>
         <Copyright/>

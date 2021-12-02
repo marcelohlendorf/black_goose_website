@@ -7,18 +7,20 @@ import Grid from '@mui/material/Grid';
 
 export default function Header() {
   return (
-    <AppBar style={{height: '100px', backgroundColor: 'black'}}>
-      <Toolbar>
-        <a />
-        <Typography variant="h6" >
-            <a href="/" >
-              <img id="logo-bgg" src={logo} width="80px" height="80px" style={{marginTop:'10px'}} alt="bgg.com" />
-            </a>
+    <div>
+      <AppBar style={{height: '100px', backgroundColor: '#000424',border: "none",boxShadow: "none"}}>
+        <Toolbar>
+          <a />
+          <Typography variant="h6" >
+              <a href="/" >
+                <img id="logo-bgg" src={logo} width="80px" height="80px" style={{marginTop:'10px'}} alt="bgg.com" />
+              </a>
+            </Typography>
+          <Typography variant="h6" color="inherit" noWrap style={{marginLeft:'2%'}}>
+            Black Goose Games
           </Typography>
-        <Typography variant="h6" color="inherit" noWrap style={{marginLeft:'2%'}}>
-          Black Goose Games
-        </Typography>
-      </Toolbar>
-    </AppBar>
+        </Toolbar>
+      </AppBar>
+    </div>
   );
 }
