@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 export default function Footer() {
   return (
     <div style={{backgroundColor: '#000424',border: "none",boxShadow: "none",marginTop:'-3px'}}>
-      <Box sx={{ p: 6 }} component="footer">
+      <Box component="footer">
         <Typography variant="h6" align="center" gutterBottom style={{color:"white"}}>
           Follow us on: Social Mocial Media
         </Typography>

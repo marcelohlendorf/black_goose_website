@@ -7,7 +7,7 @@ export default function Privacy() {
   return (
     <div>
       <Header/>
-      <div style={{marginTop: '7%',backgroundColor: '#000424'}}>
+      <div style={{marginTop: '100px',backgroundColor: '#000424'}}>
         <div class="container">
 
           <div style={{backgroundColor:'white'}}>
@@ -24,7 +24,7 @@ export default function Privacy() {
               <p>HRB 13536 NP</p>
               <p>District Court Neuruppin</p>
               <br/>
-              <p>VAT registration number (USt-ID): DE05311703252</p>
+              <p>VAT registration number (USt-ID): DE347679133</p>
               <br/>
               <p>Responsible for the content on this platform according to § 55 RStV Abs.: Christian Wilp</p>
               <br/>

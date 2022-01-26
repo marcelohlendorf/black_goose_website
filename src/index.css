@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Encode';
+  src: local('Encode'), url(fonts/Encode.ttf) format('truetype');
+}

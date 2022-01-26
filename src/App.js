@@ -1,17 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './Home.js'
 import Privacy from './Privacy.js'
+import ScrollToTop from './ScrollToTop.js'
 import {
-  HashRouter,
+  BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
 
 function App() {
-  // style={{backgroundColor: '#000424'}}
   return (
-    <HashRouter>
+    <Router>
+      <ScrollToTop />
       <div className="App">
         <Switch>
           <Route exact path="/">
@@ -27,7 +27,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 

@@ -3,14 +3,12 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import logo from './img/logo.png'
-import Grid from '@mui/material/Grid';
 
 export default function Header() {
   return (
     <div>
       <AppBar style={{height: '100px', backgroundColor: '#000424',border: "none",boxShadow: "none"}}>
         <Toolbar>
-          <a />
           <Typography variant="h6" >
               <a href="/" >
                 <img id="logo-bgg" src={logo} width="80px" height="80px" style={{marginTop:'10px'}} alt="bgg.com" />
