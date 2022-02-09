@@ -14,10 +14,7 @@ function App() {
       <ScrollToTop />
       <div className="App">
         <Switch>
-          <Route exact path="/">
-              <Home/>
-          </Route>
-          <Route exact path="/black_goose_website">
+          <Route path="/">
               <Home/>
           </Route>
           <Route exact path="/privacy-policy">

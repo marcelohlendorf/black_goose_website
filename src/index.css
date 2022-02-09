@@ -16,3 +16,11 @@ code {
   font-family: 'Encode';
   src: local('Encode'), url(fonts/Encode.ttf) format('truetype');
 }
+h1 {
+  font-family: "Encode";
+  font-size:'58px';
+}
+h3 {
+  font-family: "Encode";
+  font-size:'27px'
+}

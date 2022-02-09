@@ -3,6 +3,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import logo from './img/logo.png'
+import './index.css';
 
 export default function Header() {
   return (
@@ -15,7 +16,7 @@ export default function Header() {
               </a>
             </Typography>
           <Typography variant="h6" color="inherit" noWrap style={{marginLeft:'2%'}}>
-            Black Goose Games
+            <a>Black Goose Games</a>
           </Typography>
         </Toolbar>
       </AppBar>
