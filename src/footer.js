@@ -10,7 +10,7 @@ export default function Footer() {
     <div style={{backgroundColor: '#000424',border: "none",boxShadow: "none",marginTop:'-3px'}}>
       <Box component="footer">
         <Typography variant="h6" align="center" gutterBottom style={{color:"white"}}>
-          <a>Follow us on: Social Mocial Media</a>
+          <>Follow us on: Social Mocial Media</>
         </Typography>
         <Typography
           variant="subtitle1"

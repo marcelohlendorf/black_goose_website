@@ -8,7 +8,7 @@ export default function Copyright() {
     <Typography variant="body2" color="white" align="center">
       {'Copyright © '}
       <Link color="inherit" >
-        <a>Black Goose Games</a>
+        <>Black Goose Games</>
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}

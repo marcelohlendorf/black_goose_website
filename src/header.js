@@ -16,7 +16,7 @@ export default function Header() {
               </a>
             </Typography>
           <Typography variant="h6" color="inherit" noWrap style={{marginLeft:'2%'}}>
-            <a>Black Goose Games</a>
+            <>Black Goose Games</>
           </Typography>
         </Toolbar>
       </AppBar>

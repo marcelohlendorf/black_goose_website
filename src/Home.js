@@ -4,7 +4,6 @@ import Footer from './footer.js';
 import fireTruckImage from './img/fireTruckLogo.png';
 import mathPillsImage from './img/mathPillsLogo.png';
 import backgroundImage from './img/Master.png';
-import topBar from './img/topBar.png'
 import Grid from '@mui/material/Grid';
 
 import './index.css';
