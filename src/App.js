@@ -1,28 +1,16 @@
 import './App.css';
-import Home from './Home.js'
-import Privacy from './Privacy.js'
-import ScrollToTop from './ScrollToTop.js'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import Home from './Home.js';
+import Privacy from './Privacy.js';
+import { BrowserRouter as Router, Routes,Route} from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <ScrollToTop />
       <div className="App">
-        <Switch>
-          <Route path="/">
-              <Home/>
-          </Route>
-          <Route exact path="/privacy-policy">
-            <div>
-              <Privacy/>
-            </div>
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<Privacy/>} />
+        </Routes>
       </div>
     </Router>
   );

@@ -12,7 +12,7 @@ export default function Privacy() {
 
           <div style={{backgroundColor:'white'}}>
             <h1>Imprint</h1>
-            <div style={{marginLeft:'25%',marginRight:'25%',textAlign:'left'}}>
+            <div style={{marginLeft:'10%',marginRight:'10%',textAlign:'left'}}>
               <p style={{fontWeight: "bold"}}>Black Goose Games UG</p>
               <p>Poststraße 8</p>
               <p>16798 Fürstenberg</p>
@@ -35,7 +35,7 @@ export default function Privacy() {
             <h1>Privacy Policy</h1>
 
             <h2 style={{fontWeight: "bold"}}>Privacy statement Black Goose Games UG</h2>
-              <div style={{marginLeft:'25%',marginRight:'25%',textAlign:'left'}}>
+              <div style={{marginLeft:'10%',marginRight:'10%',textAlign:'left'}}>
               <p style={{fontWeight: "bold"}}>1. Name and contact data of the controllers responsible for processing, as well as the company data protection officer</p>
 
               <p>This data protection information applies to data processing by:</p>
@@ -118,15 +118,21 @@ export default function Privacy() {
               You are entitled to object to the formation of user profiles with the data collected about you. For this purpose, please contact the respective plug-in provider. We have no influence on the compliance with your objection and are not responsible for this either.
               You can find further relevant information and regarding your rights in this respect in the privacy statements of the plug-in providers as the responsible bodies, which you can call as follows:
               </p>
-              <p>Facebook Inc., 1601 S California Ave, Palo Alto, California 94304 USA – https://www.facebook.com/policy.php</p>
-              <p>Twitter Inc., 1355 Market St., Suite 900, San Francisco, California 94103 USA – https://twitter.com/privacy?lang=de</p>
-              <p>Instagram LLC, 1601 Willow Rd., Menlo Park California 94025 USA – https://help.instagram.com/155833707900388</p>
-              <p>YouTube LLC, 901 Cherry Ave., San Bruno, California 94066 USA – https://policies.google.com/privacy?hl=de&gl=de</p>
-              <p>Valve Corp., NE 4th St., Bellevue, Washington 98004, USA – https://store.steampowered.com/privacy_agreement/</p>
-              <p>Discord Inc. 1901 S Bascom Ave. Suite 1180, Campbell, CA 95080 USA – https://discordapp.com/privacy</p>
-              <p>Google+, 1600 Amphitheater Parkway, Mountain View, CA 94043, USA – https://policies.google.com/privacy?gl=DE&hl=en</p>
-              <p>LinkedIn Ireland Unlimited Company, Wilton Place, Dublin2, Ireland – https://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv</p>
-              ​<p>All mentioned plug-in provider are part of the EU-US-Privacy-Agreement.</p>
+              <p>Facebook Inc., 1601 S California Ave, Palo Alto, California 94304 USA – https://www.facebook.com/policy.php
+              <br/><br/>
+              Twitter Inc., 1355 Market St., Suite 900, San Francisco, California 94103 USA – https://twitter.com/privacy?lang=de
+              <br/><br/>
+              Instagram LLC, 1601 Willow Rd., Menlo Park California 94025 USA – https://help.instagram.com/155833707900388
+              <br/><br/>
+              YouTube LLC, 901 Cherry Ave., San Bruno, California 94066 USA – https://policies.google.com/privacy?hl=de&gl=de
+              <br/><br/>
+              Discord Inc. 1901 S Bascom Ave. Suite 1180, Campbell, CA 95080 USA – https://discordapp.com/privacy
+              <br/><br/>
+              Google+, 1600 Amphitheater Parkway, Mountain View, CA 94043, USA – https://policies.google.com/privacy?gl=DE&hl=en
+              <br/><br/>
+              LinkedIn Ireland Unlimited Company, Wilton Place, Dublin2, Ireland – https://www.linkedin.com/legal/privacy-policy?trk=hb_ft_priv
+              <br/><br/>
+              ​All mentioned plug-in provider are part of the EU-US-Privacy-Agreement.</p>
 
               <p style={{fontWeight: "bold"}}>7. Data subject rights</p>
               <p>You have the right:</p>
